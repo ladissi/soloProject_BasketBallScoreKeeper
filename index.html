@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="column">
+                <h3>HOME</h3>
+                <h2 class="score" id="homeScore">0</h2>
+                <div class="buttons">
+                    <button onclick="updateHomeScore(1)">+1</button>
+                    <button onclick="updateHomeScore(2)">+2</button>
+                    <button onclick="updateHomeScore(3)">+3</button>
+                    <button onclick="resetHome()">reset</button>
+                </div>
+            </div>
+            <div class="column">
+                <h3>GUEST</h3>
+                <h2 class="score" id="guestScore">0</h2>
+                <div class="buttons">
+                    <button onclick="updateGuestScore(1)">+1</button>
+                    <button onclick="updateGuestScore(2)">+2</button>
+                    <button onclick="updateGuestScore(3)">+3</button>
+                    <button onclick="resetGuest()">reset</button>
+                </div>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
