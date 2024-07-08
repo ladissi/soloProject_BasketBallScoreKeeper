@@ -42,8 +42,9 @@ function updateRed() {
 }
 
 function updateRandom() {
-    document.body.style.background = getRandomColor();
-    document.documentElement.style.background = getRandomColor();
+    let ranOne = getRandomColor();
+    document.body.style.background = ranOne;
+    document.documentElement.style.background = ranOne;
 }
 
 function getRandomColor() {
